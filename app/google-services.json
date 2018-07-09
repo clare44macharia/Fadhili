@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "89920986432",
+    "firebase_url": "https://fadhili-7431e.firebaseio.com",
+    "project_id": "fadhili-7431e",
+    "storage_bucket": "fadhili-7431e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89920986432:android:5a8aec608d1c0d13",
+        "android_client_info": {
+          "package_name": "com.myapps.claremacharia44.fadhili"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89920986432-lbt1b1qr6tg4p8fqf8jmlqqm25q3kl2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myapps.claremacharia44.fadhili",
+            "certificate_hash": "d1fa58972b4af9914854f48346a6241c5a86ef7c"
+          }
+        },
+        {
+          "client_id": "89920986432-n9am3es41pvndn4c4682nf11p90pieee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAuhDcguVmYFttPa-_r6YRmFiseC1Htxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89920986432-qptfbtp0qq4tkdrg3hq306g57einjk79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

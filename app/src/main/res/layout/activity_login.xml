@@ -94,12 +94,13 @@
             android:id="@+id/googleSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/tv_textsize"
+            android:textSize="@dimen/tv_txtsize"
             android:text="@string/google"
             android:textAlignment="center"
             android:textColor="@color/material_red_A700"
-            android:clickable="true" />
-
+            android:clickable="true"
+            android:onClick="instantiateUser"
+            />
 
 
     </LinearLayout>

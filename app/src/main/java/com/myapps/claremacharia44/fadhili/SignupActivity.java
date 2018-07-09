@@ -7,10 +7,21 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.firebase.ui.auth.AuthUI;
+import com.firebase.ui.auth.IdpResponse;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
+import java.util.Arrays;
+import java.util.List;
+
 public class SignupActivity extends AppCompatActivity {
     private Button btn_signupSignup,btn_loginSignup;
     private EditText text_fnameSignup,text_lnameSignup,text_emailSignup,phoneNumber,
             text_password1Signup,text_password2Signup;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +34,8 @@ public class SignupActivity extends AppCompatActivity {
         text_fnameSignup = findViewById(R.id.text_fnameSignup);
         text_lnameSignup = findViewById(R.id.text_lnameSignup);
         text_password1Signup = findViewById(R.id.text_passwordSignup);
+
+
 
 
         btn_loginSignup.setOnClickListener(new View.OnClickListener() {
@@ -46,4 +59,6 @@ public class SignupActivity extends AppCompatActivity {
             }
         });
     }
+
+
 }
