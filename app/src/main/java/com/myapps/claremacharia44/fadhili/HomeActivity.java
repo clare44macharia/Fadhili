@@ -21,21 +21,21 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-
-        session = new SessionManagement(getApplicationContext());
-
-
-        session.checkLogin();
-
-        // get user data from session
-        HashMap<String, String> user = session.getUserDetails();
-
-        // name
-        String name = user.get(SessionManagement.KEY_NAME);
-
-        // login_id
-        String email = user.get(SessionManagement.KEY_ID);
-
+//
+//        session = new SessionManagement(getApplicationContext());
+//
+//
+//        session.checkLogin();
+//
+//        // get user data from session
+//        HashMap<String, String> user = session.getUserDetails();
+//
+//        // name
+//        String name = user.get(SessionManagement.KEY_NAME);
+//
+//        // login_id
+//        String id = user.get(SessionManagement.KEY_ID);
+//
 
     }
 }
