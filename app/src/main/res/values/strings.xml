@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fadhili</string>
+    <string name="email_hint">something@example.com</string>
+    <string name="login">Login</string>
+    <string name="or">or</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="firstname">Firstname</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="lastname">Lastname</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="create_password">Create password</string>
+    <string name="google">Google</string>
+</resources>
