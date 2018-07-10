@@ -141,7 +141,7 @@ public class LoginActivity extends AppCompatActivity {
                     RC_SIGN_IN);
 
         Intent myIntent = new Intent(LoginActivity.this,
-                HomeActivity.class);
+                IndexActivity.class);
         startActivity(myIntent);
 
         }
